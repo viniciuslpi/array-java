@@ -9,7 +9,7 @@ public class Array2 {
         }
 
         for (Cliente i : clientes) {
-            System.out.println(i.nome);
+           // System.out.println(i.nome);
 
         }
 
@@ -21,7 +21,18 @@ public class Array2 {
 
         clientes2[0] = g;
 
-        System.out.println(g.nome);
+        //System.out.println(g.nome);
+
+        //int[] valores = new new int[10];
+        //long numeros[] = (long[]) valores;
+
+        String[] nomes = {"Mario", "Guilherme"};
+        Object[] objetos;
+        objetos = nomes;
+        for (Object o : objetos){
+            System.out.println(o);
+        }
+
     }
 
 }
